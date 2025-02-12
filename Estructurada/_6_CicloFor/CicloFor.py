@@ -13,7 +13,7 @@ if __name__ == '__main__':
     print("---------------")
     print("---------------")
 
-    lista={1,2,3,4,5,6,7,8,9,10,11,12, 13,14, 15, 16}
+    lista=[1,2,3,4,5,6,7,8,9,10,11,12, 13,14, 15, 16]
     #una lista puede contener valores d edifeerente tipo, ademas una lista es mutable, es decir que se pueden agregar mas
     for elemento in lista:
         print(elemento)
