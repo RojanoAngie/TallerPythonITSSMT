@@ -1,4 +1,33 @@
 #Tarea 12 de Febrero del 2025
+if __name__ == '__main__':
+    lista = [1, 2, 3, 4, 5, "seis", 7]  # list
+
+print("--------------------------------")
+print("lista: ")
+
+for l in lista:
+    print(l)
+
+print("--------------------------------")
+print("tupla: ")
+
+tupla= (5,6,7,"ocho") #inmutable
+for m in tupla:
+    print(m)
+
+print("--------------------------------")
+print("conjunto: ")
+
+conjunto = {9,10,"once", "doce"} # sepueden agregar listas
+for c in conjunto:
+    print(c)
+
+print("--------------------------------")
+print("diccionario: ")
+diccionario = {"clave1": "valor1", "clave2": 20}
+for d in diccionario:
+    print(d)
+
 """
    Una vez que conociste los tipos de datos de la categoría Collections de Python
    Ahora la tarea consiste en declarar una variabla para cada elemento, ingresa de forma manual, al menos 30 valores para cada elemento,
@@ -7,3 +36,4 @@
 
    ¡Éxito en esta actividad!
 """
+
