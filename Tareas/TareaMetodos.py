@@ -1,23 +1,26 @@
 """
-La tarea 2 funciona correctamente
-Calificación 10.
+La tarea 2 funciona parcialmente bien, finalmente estas perdiendo los valores
+y no los estas guardando en la lista
+Realziaré la correción apra que la revises
+
+Calificación 8.
 """
-def lista(a:int) -> list:
-    milista=[]
+def Lista(a:int,miLista:list) -> list:
     milista.append(a)
-    return lista
+    return milista
 
 if __name__ == '__main__':
-    lista2 = []
+    milista = []
 
-    lista2=lista(10)
-    lista2=lista(11)
-    lista2=lista(12)
-    lista2=lista(13)
-    lista2=lista(14)
-    lista2=lista(15)
-    lista2=lista(16)
-    lista2=lista(17)
-    lista2=lista(18)
+    milista=Lista(10,milista)
+    milista=Lista(11,milista)
+    milista=Lista(12,milista)
+    milista=Lista(13,milista)
+    milista=Lista(14,milista)
+    milista=Lista(15,milista)
+    milista=Lista(16,milista)
+    milista=Lista(17,milista)
+    milista=Lista(18,milista)
 
-    print(lista2)
+    for elemento in milista:
+        print(elemento)
